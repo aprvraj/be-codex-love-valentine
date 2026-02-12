@@ -1,0 +1,28 @@
+{
+  "name": "be-love-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Be Love Page with Razorpay integration",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.1.2",
+    "nodemailer": "^6.9.7",
+    "mysql2": "^3.6.5",
+    "validator": "^13.11.0",
+    "razorpay": "^2.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
