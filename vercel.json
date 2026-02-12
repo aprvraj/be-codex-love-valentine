@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "buildCommand": "echo 'Build complete'",
+  "outputDirectory": ".",
   "env": {
     "NODE_ENV": "production"
   }
